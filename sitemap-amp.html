@@ -77,7 +77,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        height: 400px;
+        height: 500px;
         overflow-x: hidden;
         position: relative;
         border-top: none
@@ -263,18 +263,5 @@
 <ul id="feed-container"></ul>
 <div id="feed-nav">
 </div>
-<script>
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split("=");
-            if (pair[0] == variable) {
-                return pair[1];
-            }
-        }
-        return (false);
-    }
-</script>
 <script type='text/javaScript' src="/sitemap.min.js">
 </script>
